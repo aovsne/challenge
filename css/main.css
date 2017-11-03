@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    background:#ccffff;
+}
+*{
+   font-family: sans-serif;
+}
+.head{
+    background:red;
+    background-size:contain;
+    height:450px;
+    text-align: center
+    
+}
+
+h1.main{
+    display:inline-block;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+
+    color:white;
+}
+h1.logo{
+    font-size:120px;
+    color:white;
+    font-family: 'Questrial', sans-serif;
+    margin:0;
+
+}
+img.star{
+    height:200px;
+    width:300px;
+}
+#results{
+    height:relative;
+    text-align: center;
+    margin:0;
+    
+}
+p{
+    color:#757578;
+}
+
+p.nichi{
+    margin:10px;
+    padding:20px;
+}
+div.include{
+    border:none;
+    border-radius:10px;
+    background:white;
+    margin:0 350px;
+    padding:0;
+
+
+}
+/*floor, description,city and rsvp assigned as display none to show it later*/
+p.kai,.setsu,.yoyaku,.toshi{
+    display: none
+}
+
+button.btnmore{
+    margin-bottom:30px;
+    color:black;
+    padding:20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+.btnmore:hover{
+    background-color:#98c4f3 ;
+}
+
+.hidden{
+    display:none;
+}
+/*popup lightbox */
+#popup{
+    height:relative;
+    width:80%;
+    background:#f5f5f5;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left:10%;
+    display:none;
+    
+
+}
+.atama{
+    background:#5d9edd;
+    height:70px;
+    width:100%;
+}
+h2.detail{
+    color:white;
+    padding-top:20px;
+    margin:0;
+}
+.close{
+    padding:10px 20px;
+    border:none;
+    margin-bottom:30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.close:hover{
+    background-color:#98c4f3;
+}
+
+/*using media queries to make the page responsive*/
+
+@media(max-width:582px){
+    #popup{
+        width:100%;
+        margin-left:0;
+
+    }
+}
+
+@media(max-width:1100px){
+    div.include{
+        margin:0 200px;
+    }
+}
+@media(max-width:900px){
+    div.include{
+        margin:0 100px;
+    }
+}
+@media(max-width:700px){
+    div.include{
+        margin:0 80px;
+    }
+}
