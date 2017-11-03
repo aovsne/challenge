@@ -122,6 +122,15 @@ function clear(){
 	document.getElementById('popup').style.display = "none"
 }
 
+// finally creating a jquery keydown event where when x key is pressed, let function cler() runs.
+$(document).ready(function(){
+	$('body').keydown(function(event){
+		if(event.which == 88){
+			clear()
+		}
+	})
+})
+
 
 
 
